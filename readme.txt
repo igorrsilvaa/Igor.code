@@ -1,1 +1,1 @@
-Inicio do meu portfolio original, no qual vou dedicar 2 horas por dia para realizar as mudanás no site, peguei essa landpage como exemplo, pois nao tenho muita experiencia para criar um site assim com tantas funcionalidades do zero
+Inicio do meu portfolio original, no qual vou dedicar 2 horas por dia para realizar as mudanças no site, peguei essa landpage como exemplo, pois nao tenho muita experiencia para criar um site assim com tantas funcionalidades do zero
