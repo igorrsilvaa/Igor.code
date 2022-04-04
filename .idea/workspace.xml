@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="45f3c0f7-27f4-4646-9981-57f1b940abe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/Projeto01.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio/Projeto01.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings">
-    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_COMMON_BRANCH" value="master" />
@@ -80,11 +76,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="exceleditor.install" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,11 +96,6 @@
       <workItem from="1648953399884" duration="304000" />
       <workItem from="1648953749069" duration="248000" />
       <workItem from="1648954079561" duration="119000" />
-      <workItem from="1649022703189" duration="268000" />
-      <workItem from="1649023011346" duration="296000" />
-      <workItem from="1649023366007" duration="2694000" />
-      <workItem from="1649032706114" duration="353000" />
-      <workItem from="1649034731789" duration="78000" />
     </task>
     <servers />
   </component>
