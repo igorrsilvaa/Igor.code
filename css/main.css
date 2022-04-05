@@ -2486,7 +2486,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #contact {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/intro-2.jpg") no-repeat center;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/intro-2.jpg") no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
