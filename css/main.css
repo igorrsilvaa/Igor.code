@@ -2481,26 +2481,36 @@ header .logo a {
 
 /**
  * ===================================================================
- * 17. contact - (_layout.scss)
+ * 17 contact
  *
  * -------------------------------------------------------------------
  */
 #contact {
-	background: #151515dc;
-	padding-top: 12rem;
-	padding-bottom: 7.2rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/intro-2.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 720px;
+	display: table;
+	position: relative;
+	text-align: center;
 }
 
 #contact .section-intro h1 {
-	color: white;
+	color: #fffefe;
 }
 
 #contact .section-intro h5 {
+	margin-top: 15px;
+	font-size: 24px;
 	color: #50fa7b;
 }
 
 #contact .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
+	color: rgb(255, 255, 255);
 }
 
 /* contact form */
@@ -2509,25 +2519,25 @@ header .logo a {
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgb(255, 255, 255);
 }
 
 .contact-form :-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);
-	/* Firefox 18- */
+	color: rgb(255, 255, 255);
+
 }
 
 .contact-form ::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.92);
 	/* Firefox 19+ */
 }
 
 .contact-form :-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.85);
 }
 
 .contact-form .placeholder {
-	color: rgba(255, 255, 255, 0.3) !important;
+	color: rgba(255, 255, 255, 0.95) !important;
 }
 
 #contact form {
@@ -2580,7 +2590,7 @@ header .logo a {
 #contact input[type="email"],
 #contact textarea {
 	width: 100%;
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 0.98);
 	margin-bottom: 0;
 	border: none;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -2596,7 +2606,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #FF0077;
+	border-color: #131122;
 	color: #FFFFFF;
 }
 
@@ -2606,7 +2616,7 @@ header .logo a {
 }
 
 #contact textarea:focus {
-	border-color: #44475a;
+	border-color: #1a1d34;
 	color: #FFFFFF;
 }
 
@@ -2694,7 +2704,7 @@ header .logo a {
 
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #d1d1d1;
+	color: #ffffff;
 }
 
 .contact-info h5 {
@@ -2803,10 +2813,10 @@ footer .social {
 footer .footer-social {
 	display: inline-block;
 	font-size: 2.1rem;
-	margin: 0;
+	margin: 10px;
 	padding: 0;
 	position: relative;
-	top: -.3rem;
+	top: 1rem;
 }
 
 footer .footer-social li {
@@ -2826,8 +2836,8 @@ footer .copyright span {
 footer .copyright span::after {
 	content: "|";
 	display: inline-block;
-	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
+	padding:  1rem;
+	color: rgb(255, 255, 255);
 }
 
 footer .copyright span:last-child::after {
@@ -2880,8 +2890,8 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
-	color: #FFFFFF;
+	background: #282A36;
+	color: #50fa7b;
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
@@ -2892,7 +2902,7 @@ footer .copyright span:last-child::after {
 }
 
 #go-top a i {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: inherit;
 }
 
