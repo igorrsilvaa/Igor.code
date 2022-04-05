@@ -2790,6 +2790,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	background: #191622;
 }
 
 footer a,
@@ -2821,7 +2822,7 @@ footer .footer-social {
 
 footer .footer-social li {
 	display: inline-block;
-	margin: 0 12px;
+	margin: 10px 12px;
 	padding: 0;
 }
 
@@ -2834,9 +2835,10 @@ footer .copyright span {
 }
 
 footer .copyright span::after {
-	content: "|";
+	content: "";
 	display: inline-block;
 	padding:  1rem;
+	margin-top: 23px;
 	color: rgb(255, 255, 255);
 }
 
@@ -2907,5 +2909,5 @@ footer .copyright span:last-child::after {
 }
 
 #go-top a:hover {
-	background: #000000;
+	background: #1c1c26;
 }
