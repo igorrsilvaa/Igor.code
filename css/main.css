@@ -1301,6 +1301,10 @@ input::-moz-focus-inner {
         font-size: 1.5rem;
         letter-spacing: .3rem;
     }
+
+    .message{
+        animation: digitando 3.2s steps(20), blink .6s infinite alternate;
+    }
 }
 
 @media only screen and (max-width:400px) {
