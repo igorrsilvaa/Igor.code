@@ -1121,7 +1121,7 @@ input::-moz-focus-inner {
     padding: .6rem .6rem;
     border-radius: 3px;
     z-index: 4;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .skill-bars li .progress span::after {
