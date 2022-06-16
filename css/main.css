@@ -1107,7 +1107,7 @@ input::-moz-focus-inner {
     position: relative;
     height: 100%;
 }
-
+/*numeros que vai em cima das barras*/
 .skill-bars li .progress span {
     position: absolute;
     right: 0;
@@ -1121,6 +1121,7 @@ input::-moz-focus-inner {
     padding: .6rem .6rem;
     border-radius: 3px;
     z-index: 4;
+    opacity: 0.8;
 }
 
 .skill-bars li .progress span::after {
@@ -1133,7 +1134,7 @@ input::-moz-focus-inner {
     border-top: 5px solid #313131;
     content: "";
 }
-
+/*o que define o tamanho das linhas*/
 .skill-bars li .percent5 {
     width: 5%;
 }
