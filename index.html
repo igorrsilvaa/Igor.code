@@ -553,7 +553,9 @@
 						<input type="email" name="UserEmail" placeholder="Email" required>
 						<input type="text" name="Object" placeholder="Objetivo">
 						<input type="text" name="Message" placeholder="Mensagem">
-						<button type="submit" class="submitform">Enviar</button>
+						<input type="hidden" name="_captcha" value="false"> <!--retira o captcha-->
+						<input type="hidden" name="_next" value="https://igorcode2022.netlify.app/">
+						<button type="submit" id="Alert" class="submitform">Enviar</button>
 					</fieldset>
 				</form> <!-- Form End -->
 
@@ -646,6 +648,7 @@
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/form.js"></script>
 
 </body>
 
