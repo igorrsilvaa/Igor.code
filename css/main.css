@@ -2523,7 +2523,7 @@ header .logo a {
     max-width: 740px;
 }
 
-.contact-form ::-webkit-input-placeholder {
+.contact-form ::-webkit-input-placeholder {  /* cor dos inputs dentro do form*/
     color: rgb(255, 255, 255);
 }
 
@@ -2534,7 +2534,6 @@ header .logo a {
 
 .contact-form ::-moz-placeholder {
     color: rgba(255, 255, 255, 0.92);
-    /* Firefox 19+ */
 }
 
 .contact-form :-ms-input-placeholder {
@@ -2575,7 +2574,7 @@ header .logo a {
     letter-spacing: .1rem;
     padding: 0 2rem;
     margin: 0;
-    color: #FFFFFF;
+    color: #30337b;
     background: #483C67;
 }
 
@@ -2595,7 +2594,7 @@ header .logo a {
 #contact input[type="email"],
 #contact textarea {
     width: 100%;
-    color: rgba(255, 255, 255, 0.98);
+    color: #c0d0f1;
     margin-bottom: 0;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -2612,7 +2611,7 @@ header .logo a {
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
     border-color: #131122;
-    color: #FFFFFF;
+    color: #c0d0f1;
 }
 
 #contact textarea {
@@ -2622,7 +2621,7 @@ header .logo a {
 
 #contact textarea:focus {
     border-color: #1a1d34;
-    color: #FFFFFF;
+    color: #0f0f38;
 }
 
 #contact button.submitform {
